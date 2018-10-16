@@ -19,6 +19,10 @@ a {
     color: #048657;
 }
 
+img {
+    width: 100%;
+}
+
 @media only screen and (min-width: 1281px) {
     body {
         font-size: 1.04vw;
@@ -496,10 +500,16 @@ button svg {
     padding-left: 0px;
     font-size: 13px;
     margin-left: -120px;
+
 }
 
 .footer li {
     margin-bottom: 49px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -518,6 +528,20 @@ button svg {
 
 .qrbutton img {
     margin-right: 20px;
+    width: 58px;
+    height: auto;
+}
+
+.qrbutton a {
+    width: -webkit-fill-available;
+}
+
+.qrbutton button {
+    height: 60px;
+    position: relative;
+    top: -1px;
+    width: -webkit-fill-available;
+
 }
 
 .donationBox .label {
@@ -559,6 +583,8 @@ blockquote {
     border-radius: 0px;
     overflow: hidden;
     padding-top: 56%;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 .whiteBox .content {
@@ -566,4 +592,16 @@ blockquote {
     position: absolute;
     margin: 0 auto;
     text-align: center;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.whiteBox svg {
+    width: auto;
+    height: 80%;
+    top: 10%;
+    position: relative;
+
 }
