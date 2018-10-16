@@ -14,6 +14,11 @@ body {
     width: 100%;
 }
 
+
+a {
+    color: #048657;
+}
+
 @media only screen and (min-width: 1281px) {
     body {
         font-size: 1.04vw;
@@ -192,9 +197,11 @@ button svg {
     width: 100%;
     margin: 0 auto;
     position: relative;
+    position: absolute;
     width: 100%;
 
     z-index: 5000;
+    top: 0px;
 }
 
 @media only screen and (min-width: 1281px) {
@@ -271,6 +278,13 @@ button svg {
     text-decoration: none;
 }
 
+
+
+.single {
+    margin-top: 94px;
+}
+
+
 .introduction {
     height: 620px;
 
@@ -282,10 +296,12 @@ button svg {
     .introduction {
         box-sizing: border-box;
         height: 525px;
+        height: 100vh;
     }
 
     .introduction .content p {
         max-width: 384px;
+        max-width: 399px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -314,6 +330,7 @@ button svg {
     /* margin-top: 40px; */
     top: 37.7%;
     top: 127px;
+    top: 38%;
     position: relative;
 
 }
