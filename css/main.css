@@ -863,3 +863,178 @@ blockquote {
     border-radius: 10px;
     max-width: 443px;
 }
+
+
+
+.innerSection-1zFnfY {
+    max-width: 1018px;
+    width: 100%;
+}
+
+
+.bigBox-PGc5EP {
+    max-width: 1100px;
+    width: 100%;
+}
+
+.box-34lxhR {
+    -webkit-box-sizing: border-box;
+    border: 2px solid rgba(63, 66, 70, .95);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0 0 8px;
+    position: relative;
+}
+
+.flexWrap-1K8nA- {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flexJustifyCenter-XyJP9E {
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.flexAlignCenter-2tn6as {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.flexHorizontal-1YWL8b {
+    -ms-flex-direction: row;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-1xMQg5,
+.flex-1xMQg5 .flexChild-faoVW3 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.flex-1xMQg5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.bigLogo-1-7P5z {
+    height: 100%;
+    margin: 40px 30px;
+    max-width: 710px;
+    width: 100%;
+}
+
+.img-_IIcTK {
+    height: 100%;
+    width: 100%;
+}
+
+
+.logoRow-27_7kq {
+    -ms-flex-flow: row wrap;
+    -ms-flex-pack: justify;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+.blackBGPattern-2OPSDy,
+.whiteBGPattern-2Hen8z {
+    background-position: 0 0, 30px 30px;
+    background-size: 20px 20px;
+}
+
+.blackBGPattern-2OPSDy {
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #2e3033 25%, transparent 0, transparent 75%, #2e3033 0, #2e3033), linear-gradient(45deg, #2e3033 25%, transparent 0, transparent 75%, #2e3033 0, #2e3033);
+}
+
+.whiteBGPattern-2Hen8z {
+    background-color: #fff;
+    background-image: linear-gradient(45deg, #f6f6f6 25%, transparent 0, transparent 75%, #f6f6f6 0, #f6f6f6), linear-gradient(45deg, #f6f6f6 25%, transparent 0, transparent 75%, #f6f6f6 0, #f6f6f6);
+}
+
+.blackBGPattern-2OPSDy,
+.whiteBGPattern-2Hen8z {
+    background-position: 0 0, 30px 30px;
+    background-size: 20px 20px;
+}
+
+.logoSixth-3Bd6et,
+.logoThird-1yuEue {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 122px;
+    margin: 10px 10px 8px 0;
+    padding: 15px;
+}
+
+.logoThird-1yuEue {
+    -ms-flex-negative: 0;
+    -ms-flex-positive: 2;
+    -ms-flex-preferred-size: 200px;
+    -webkit-box-flex: 2;
+    flex-basis: 200px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+
+.box-34lxhR {
+    -webkit-box-sizing: border-box;
+    border: 2px solid #d8d8d8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0 0 8px;
+    position: relative;
+}
+
+.linkWrapper-1BQh3M {
+    bottom: 7px;
+    position: absolute;
+    right: 0;
+}
+
+.link-loZ2kj {
+    -webkit-transition: all .1s ease;
+    color: #00b0f4;
+    margin-right: 16px;
+    opacity: .5;
+    transition: all .1s ease;
+}
+
+
+.donateBoxContainer {
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+    max-width: 1018px;
+    margin: 0 auto;
+}
+
+
+.logoSixth-3Bd6et,
+.logoThird-1yuEue {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 122px;
+    margin: 10px 10px 8px 0;
+    padding: 15px;
+}
