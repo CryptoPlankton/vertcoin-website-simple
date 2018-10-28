@@ -8,10 +8,17 @@ html {
 
 body {
     font-size: 10px;
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'montserrat';
     color: #262626;
     width: 100%;
+}
+
+
+@media only screen and (min-width: 993px) {
+    body {
+        font-size: 14px;
+    }
 }
 
 .desktop {
@@ -71,7 +78,7 @@ h3 {
 
 @media only screen and (min-width: 600px) {
     h3 {
-        font-size: 31px;
+        font-size: 33px;
         margin-bottom: 35px;
     }
 }
@@ -95,15 +102,19 @@ p {
 
 
 section {
-    border-bottom: 1px solid #d8d8d8;
-    padding: 65px 25px 86px;
+
+    padding: 35px 35px 46px;
     position: relative;
+    border-bottom: 1px solid #d8d8d8;
+
 
 }
 
 @media only screen and (min-width: 600px) {
     section {
-        padding: 25px;
+        margin: 0;
+        padding: 65px 25px 86px;
+
     }
 }
 
@@ -126,8 +137,12 @@ button {
     box-shadow: 0px 11px 90px rgba(0, 0, 0, 0.2);
     border: none;
     padding: 17px 0px 22px;
+    padding: 20px 0px 23px;
 
     width: 100%;
+
+
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -259,28 +274,33 @@ button svg {
     font-size: 15px;
     margin: 0 auto;
     padding-top: 25px;
-    height: 58px;
+    height: 53px;
     /* position: absolute; */
     width: 100%;
     margin: 0 auto;
     position: relative;
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 5000;
     top: 0px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
     width: -webkit-fill-available;
+    background: white;
+    /*    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);*/
 }
 
-}
 
 @media only screen and (min-width: 600px) {
 
     .navbar {
+
+        position: absolute;
+        background: none;
+        box-shadow: none;
+        height: 58px;
         padding-left: 0px;
         padding-right: 0px;
-        padding-top: 36px;
     }
 
 }
@@ -421,16 +441,18 @@ button svg {
     height: 635px;
 
     box-sizing: border-box;
+    margin-top: 40px;
 
 }
 
-.introduction .label {}
+.introduction .content {}
 
 @media only screen and (min-width: 600px) {
     .introduction {
         box-sizing: border-box;
         height: 525px;
         height: 100vh;
+        margin-top: 0px;
     }
 
     .introduction .content p {
@@ -549,6 +571,8 @@ button svg {
 .oneclickminer,
 .asics {
     display: block;
+
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -558,15 +582,17 @@ button svg {
         display: flex;
         padding: 75px 25px 112px;
         justify-content: space-between;
+        box-shadow: none;
     }
 }
 
 
-.oneclickminer {}
+
 
 @media only screen and (min-width: 600px) {
     .oneclickminer {
         display: flex;
+        background: none;
     }
 }
 
@@ -574,8 +600,9 @@ button svg {
 
     box-shadow: 0px 11px 40px rgba(0, 0, 0, 0.11);
     border-radius: 10px;
-    margin: 44px 0px;
+
     max-width: none;
+    overflow: hidden;
 }
 
 
@@ -586,6 +613,7 @@ button svg {
         max-width: 34.609375vw;
         border-radius: 10px;
         overflow: hidden;
+        margin: 44px 0px;
     }
 }
 
@@ -597,6 +625,7 @@ button svg {
 }
 
 .centred {
+    text-align: left;
 
 
     max-width: 433px;
@@ -676,8 +705,8 @@ button svg {
     font-size: 13px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
     text-align: left !important;
 }
 
@@ -1069,10 +1098,17 @@ blockquote {
 
 
 .center {
-    text-align: center;
+    text-align: left;
     font-size: 21px;
     max-width: 963px;
     margin: 0 auto;
     line-height: 1.8;
     padding: 98px 0px 103px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .center {
+        text-align: center;
+    }
 }
