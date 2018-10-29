@@ -1187,3 +1187,7 @@ only screen and (max-device-width: 40em) .card {
     position: relative;
     top: -2px;
 }
+
+.centerAlign {
+    text-align: center !important;
+}
