@@ -1199,6 +1199,11 @@ only screen and (max-device-width: 40em) .card {
     text-align: center !important;
 }
 
+
+.maxWidth {
+    display: block;
+}
+
 @media only screen and (min-width: 600px) {
     .maxWidth {
         margin: 0 auto;
@@ -1207,9 +1212,4 @@ only screen and (max-device-width: 40em) .card {
         display: flex;
         justify-content: space-between;
     }
-}
-
-
-.maxWidth {
-    display: block;
 }
