@@ -28,6 +28,34 @@ body {
 
 
 
+@media only screen and (min-width: 1300px) {
+    body {
+        font-size: 17px !important;
+    }
+
+    .download {
+        font-size: 17px !important;
+    }
+
+    button {
+        font-size: 17px !important;
+    }
+
+    .navbar {
+        font-size: 17px !important;
+    }
+
+    .introduction .content p {
+
+        max-width: 440px !important;
+
+    }
+
+}
+
+
+
+
 @media only screen and (min-width: 993px) {
     .desktop {
         display: inherit;
@@ -77,11 +105,7 @@ h3 {
 }
 
 
-@media only screen and (min-width: 1281px) {
-    h3 {
-        font-size: 2.41vw;
-    }
-}
+
 
 
 
@@ -171,11 +195,7 @@ button svg {
 }
 
 
-@media only screen and (min-width: 1281px) {
-    .button {
-        font-size: 1.167346vw;
-    }
-}
+
 
 
 
@@ -211,12 +231,6 @@ button svg {
 }
 
 
-@media only screen and (min-width: 1281px) {
-    .label {
-        font-size: 0.86vw;
-    }
-
-}
 
 
 
@@ -305,7 +319,7 @@ button svg {
 
 @media only screen and (min-width: 1281px) {
     .navbar {
-        font-size: 1.167346vw;
+
         padding-top: calc(0.0580645161 * 620px);
         padding-top: 53px;
         height: calc(0.0967741935 * 620px);
@@ -628,7 +642,7 @@ button svg {
     text-align: center;
 
 
-    max-width: 433px;
+    max-width: 443px;
 
 
 }
@@ -646,26 +660,19 @@ button svg {
 
 
 @media only screen and (min-width: 1281px) {
-    .centred {
-        max-width: 31.640625vw;
-        margin-left: 9.296875vw;
-        margin-right: 13.28125vw;
-    }
+    .centred {}
 }
 
 
 @media only screen and (min-width: 600px) {
     .col2 {
         width: 50%;
+        max-width: 443px;
     }
 
     .centred {
         text-align: center;
-        margin-left: 112px;
-        margin-right: 170px;
-        text-align: center;
-        margin-left: 101px;
-        margin-right: 150px;
+
     }
 }
 
@@ -1190,4 +1197,12 @@ only screen and (max-device-width: 40em) .card {
 
 .centerAlign {
     text-align: center !important;
+}
+
+.maxWidth {
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
