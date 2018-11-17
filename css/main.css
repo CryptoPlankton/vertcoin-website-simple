@@ -477,7 +477,8 @@ button svg {
         height: 100vh;
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-bottom: -90px;
+        margin-bottom: -30px;
+
     }
 
     .introduction .content p {
@@ -496,6 +497,7 @@ button svg {
     .introduction {
         box-sizing: border-box;
         height: 93.5vh;
+        margin-bottom: -90px;
     }
 }
 
