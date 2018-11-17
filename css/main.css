@@ -157,8 +157,10 @@ button {
     border-radius: 5px;
     font-size: 13px;
     color: white;
+/*
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
     box-shadow: 0px 11px 90px rgba(0, 0, 0, 0.2);
+*/
     border: none;
     padding: 17px 0px 22px;
     padding: 20px 0px 23px;
