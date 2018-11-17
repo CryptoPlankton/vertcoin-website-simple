@@ -165,6 +165,7 @@ button {
 
     width: 100%;
     border-radius: 60px !important;
+    border-radius: 0px !important;
     font-size: 15px;
 
 
@@ -210,14 +211,14 @@ button svg {
 
 .download {
     background: #048657;
-    border-radius: 5px;
+    /*    border-radius: 5px;*/
     font-size: 15px;
     color: white !important;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
     border: none;
     padding: 0px 23px;
     display: block;
-    border-radius: 60px;
+    /*    border-radius: 60px;*/
 }
 
 
@@ -263,10 +264,11 @@ button svg {
 .computerCrop {
     position: absolute;
     left: 0px;
-    bottom: 0px;
+    bottom: -80px;
     width: 357px;
     display: none;
     min-height: 266px;
+    z-index: 99;
 }
 
 
@@ -295,8 +297,8 @@ button svg {
     /* position: absolute; */
     width: 100%;
     margin: 0 auto;
-    position: relative;
-    position: fixed;
+    position: absolute;
+
     width: 100%;
     z-index: 5000;
     top: 0px;
@@ -461,6 +463,8 @@ button svg {
     box-sizing: border-box;
     margin-top: 40px;
     height: 90vh;
+    border: none;
+    margin-bottom: -260px;
 
 }
 
@@ -472,6 +476,8 @@ button svg {
         height: 525px;
         height: 100vh;
         margin-top: 0px;
+        margin-bottom: 0px;
+        margin-bottom: -90px;
     }
 
     .introduction .content p {
@@ -544,6 +550,16 @@ button svg {
 }
 
 
+.oneclickminer,
+.houses {
+    background: #000;
+}
+
+.oneclickminer h3,
+.houses h3 {
+    color: white;
+}
+
 
 
 .oneclickminer h3 {
@@ -556,7 +572,7 @@ button svg {
 .asics img {
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
     margin-bottom: 44px;
-    border-radius: 10px;
+    /*    border-radius: 10px;*/
 
 
 }
@@ -613,14 +629,14 @@ button svg {
 @media only screen and (min-width: 600px) {
     .oneclickminer {
         display: flex;
-        background: none;
+
     }
 }
 
 .oneclickminer--mockup {
 
     box-shadow: 0px 11px 40px rgba(0, 0, 0, 0.11);
-    border-radius: 10px;
+    /*    border-radius: 10px;*/
 
     max-width: none;
     overflow: hidden;
@@ -632,7 +648,7 @@ button svg {
         margin: 0px;
         max-width: 443px;
         max-width: 34.609375vw;
-        border-radius: 10px;
+        /*        border-radius: 10px;*/
         overflow: hidden;
         margin: 44px 0px;
     }
@@ -779,7 +795,7 @@ button svg {
 
 .donationBox {
     font-size: 11px;
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 73px;
     margin-bottom: 18px;
 }
@@ -1115,9 +1131,10 @@ blockquote {
 
 
 .center {
-    text-align: left;
-    font-size: 21px;
+    text-align: center;
+    /*    font-size: 21px;*/
     max-width: 963px;
+    max-width: 473px;
     margin: 0 auto;
     line-height: 1.8;
     padding: 98px 0px 103px;
@@ -1240,4 +1257,18 @@ only screen and (max-device-width: 40em) .card {
 section.statement .col1 {
     font-size: 18px;
 
+}
+
+
+.fullNode {
+    margin-bottom: 40px;
+}
+
+
+.mainoverview {
+    position: relative;
+    padding: 375px 0 130px;
+    background: url(../img/overview-bg.svg) top no-repeat;
+    background-size: cover;
+    text-align: center;
 }
