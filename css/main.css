@@ -1147,9 +1147,9 @@ blockquote {
 
 .center {
     text-align: center;
-    /*    font-size: 21px;*/
+    /* font-size: 21px; */
     max-width: 963px;
-    max-width: 473px;
+    max-width: 482px;
     margin: 0 auto;
     line-height: 1.8;
     padding: 98px 0px 103px;
