@@ -265,9 +265,9 @@ button svg {
 
 .computerCrop {
     position: absolute;
-    left: 0px;
+    left: 20px;
     bottom: -80px;
-    width: 357px;
+    width: 347px;
     display: none;
     min-height: 266px;
     z-index: 99;
@@ -1279,7 +1279,7 @@ only screen and (max-device-width: 40em) .card {
 
 
 .statement {
-/*    border-bottom: none;*/
+    /*    border-bottom: none;*/
     padding-bottom: 0px;
 }
 
