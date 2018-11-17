@@ -216,7 +216,7 @@ button svg {
     /*    border-radius: 5px;*/
     font-size: 15px;
     color: white !important;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+/*    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);*/
     border: none;
     padding: 0px 23px;
     display: block;
