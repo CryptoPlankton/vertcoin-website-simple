@@ -147,7 +147,7 @@ section {
 @media only screen and (min-width: 600px) {
     .oneclickminer .asic {
 
-        padding: 75px 25px 112px !important;
+        padding: 112px 25px 112px !important;
 
     }
 }
@@ -621,7 +621,7 @@ button svg {
     .oneclickminer,
     .asics {
         display: flex;
-        padding: 75px 25px 112px;
+        padding: 112px 25px 112px;
         justify-content: space-between;
         box-shadow: none;
     }
@@ -1152,13 +1152,22 @@ blockquote {
     max-width: 482px;
     margin: 0 auto;
     line-height: 1.8;
-    padding: 98px 0px 103px;
+    padding: 0px 0px 30px;
 }
+
+
 
 
 @media only screen and (min-width: 600px) {
     .center {
         text-align: center;
+        text-align: center;
+        /* font-size: 21px; */
+        max-width: 963px;
+        max-width: 482px;
+        margin: 0 auto;
+        line-height: 1.8;
+        padding: 98px 0px 103px;
     }
 }
 
