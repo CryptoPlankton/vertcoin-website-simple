@@ -1336,12 +1336,12 @@ section.statement .col1 {
 @media only screen and (min-width: 600px) {
     .buttonList button:first-child {
         margin-top: 0px !important;
-        margin-right: 5px;
+        margin-right: 10px;
     }
 
     .buttonList button:last-child {
         margin-top: 0px !important;
-        margin-left: 5px;
+        margin-left: 10px;
     }
 
     .buttonList {
