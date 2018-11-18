@@ -26,7 +26,9 @@ body {
 }
 
 
-
+a {
+    text-decoration: none;
+}
 
 @media only screen and (min-width: 1300px) {
     body {
@@ -172,6 +174,12 @@ button {
 
 }
 
+
+.introduction button {
+    width: 325px;
+    box-shadow: none;
+}
+
 @media only screen and (min-width: 600px) {
     button {
         width: initial;
@@ -233,8 +241,8 @@ button svg {
 
 .label {
     color: #A4A4A4;
-    margin-top: 25px;
-    font-size: 11px;
+    margin-top: 30px;
+    font-size: 12px;
     /*    font-size: 12px;*/
 }
 
@@ -263,12 +271,13 @@ button svg {
 
 .computerCrop {
     position: absolute;
-    left: 0px;
-    bottom: -80px;
-    width: 357px;
+    left: 76px;
+    bottom: -53px;
+    width: 177px;
     display: none;
-    min-height: 266px;
+    /* min-height: 266px; */
     z-index: 99;
+    display: none !important;
 }
 
 
@@ -477,13 +486,12 @@ button svg {
         height: 100vh;
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-bottom: -30px;
-
+        /* margin-bottom: -30px; */
     }
 
     .introduction .content p {
         max-width: 384px;
-        max-width: 411px;
+        max-width: 671px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -525,9 +533,8 @@ button svg {
 
 @media only screen and (min-width: 600px) {
     .introduction .content {
-        top: 38%;
-
-        max-width: 492px;
+        top: 31%;
+        max-width: 722px;
     }
 
 }
@@ -562,7 +569,9 @@ button svg {
     color: white;
 }
 
-
+button svg {
+    display: none;
+}
 
 .oneclickminer h3 {
     margin-top: 20px;
