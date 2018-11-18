@@ -508,11 +508,6 @@ button svg {
 
 
 
-@media only screen and (min-width: 1281px) {
-    .introduction h3 {
-        font-size: 2.41vw;
-    }
-}
 
 
 .introduction .content {
@@ -539,8 +534,17 @@ button svg {
 
 
 
-.introduction .button {}
+.introduction h3 {
+    font-size: 27px;
+}
 
+
+@media only screen and (min-width: 600px) {
+
+    .introduction h3 {
+        font-size: 42px;
+    }
+}
 
 @media only screen and (min-width: 600px) {
     .introduction .content {
