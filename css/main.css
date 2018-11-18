@@ -127,13 +127,12 @@ p {
 
 
 section {
-
     padding: 35px 35px 46px;
     position: relative;
     border-bottom: 10px solid #fafafa;
+    border-left: 10px solid #fafafa;
+    border-right: 10px solid #fafafa;
     position: relative;
-
-
 }
 
 @media only screen and (min-width: 600px) {
@@ -169,6 +168,7 @@ button {
     border-radius: 60px !important;
     border-radius: 0px !important;
     font-size: 15px;
+    height: 58px;
 
 
 
@@ -354,7 +354,7 @@ button svg {
 @media only screen and (min-width: 993px) {
     .navbar .content {
         max-width: 92.8125%;
-        max-width: 1018px;
+        max-width: 1160px;
         margin: 0 auto;
     }
 }
@@ -468,13 +468,10 @@ button svg {
     height: 620px;
     height: 635px;
     height: 466px;
-
     box-sizing: border-box;
     margin-top: 40px;
     height: 90vh;
     border: none;
-    margin-bottom: -260px;
-
 }
 
 .introduction .content {}
@@ -646,7 +643,7 @@ button svg {
 
 .oneclickminer--mockup {
 
-    box-shadow: 0px 11px 40px rgba(0, 0, 0, 0.11);
+/*    box-shadow: 0px 11px 40px rgba(0, 0, 0, 0.11);*/
     /*    border-radius: 10px;*/
 
     max-width: none;
@@ -1293,4 +1290,34 @@ section.statement .col1 {
     background: url(../img/overview-bg.svg) top no-repeat;
     background-size: cover;
     text-align: center;
+}
+
+.buttonList {
+    display: -webkit-box;
+}
+
+.buttonList button {
+
+    height: 58px;
+}
+
+.buttonList button:last-child {
+    margin-top: 15px !important;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .buttonList button:first-child {
+        margin-top: 0px !important;
+        margin-right: 5px;
+    }
+
+    .buttonList button:last-child {
+        margin-top: 0px !important;
+        margin-left: 5px;
+    }
+
+    .buttonList {
+        display: inline-flex;
+    }
 }
