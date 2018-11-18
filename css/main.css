@@ -83,6 +83,7 @@ a {
 
 img {
     width: 100%;
+    overflow: visible;
 }
 
 
@@ -129,7 +130,7 @@ p {
 section {
     padding: 35px 35px 46px;
     position: relative;
-    border-bottom: 10px solid #fafafa;
+    border-bottom: 10px solid #f3f3f3;
     /*
     border-left: 10px solid #fafafa;
     border-right: 10px solid #fafafa;
@@ -1160,7 +1161,7 @@ blockquote {
     max-width: 504px;
     margin: 0 auto;
     line-height: 1.8;
-    padding: 98px 0px 103px;
+    /* padding: 98px 0px 103px; */
 }
 
 
@@ -1290,10 +1291,10 @@ section.statement .col1 {
 
 .mainoverview {
     position: relative;
-
     /* background: #171717 url(../img/overview-bg.svg) top no-repeat; */
     background-size: cover;
     text-align: center;
+    overflow: hidden;
 }
 
 
