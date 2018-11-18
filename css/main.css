@@ -1319,7 +1319,8 @@ section.statement .col1 {
 
 .buttonList button {
 
-    height: 58px;
+    height: 55px;
+    padding: 17px 0px 23px;
 }
 
 
