@@ -125,17 +125,20 @@ p {
 
 
 section {
+
     padding: 35px 35px 46px;
     position: relative;
-    border-bottom: 10px solid white;
+    border-bottom: 10px solid #fafafa;
     position: relative;
-    background: #fafafa !important;
+
+
 }
 
 @media only screen and (min-width: 600px) {
     section {
         margin: 0;
-        padding: 86px 25px 86px;
+        padding: 65px 25px 86px;
+
     }
 }
 
@@ -144,7 +147,7 @@ section {
 @media only screen and (min-width: 600px) {
     .oneclickminer .asic {
 
-        padding: 112px 25px 112px !important;
+        padding: 75px 25px 112px !important;
 
     }
 }
@@ -154,10 +157,8 @@ button {
     border-radius: 5px;
     font-size: 13px;
     color: white;
-    /*
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
     box-shadow: 0px 11px 90px rgba(0, 0, 0, 0.2);
-*/
     border: none;
     padding: 17px 0px 22px;
     padding: 20px 0px 23px;
@@ -213,7 +214,7 @@ button svg {
     /*    border-radius: 5px;*/
     font-size: 15px;
     color: white !important;
-    /*    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);*/
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
     border: none;
     padding: 0px 23px;
     display: block;
@@ -262,11 +263,11 @@ button svg {
 
 .computerCrop {
     position: absolute;
-    left: 20px;
+    left: 0px;
     bottom: -80px;
-    width: 307px;
+    width: 357px;
     display: none;
-    /* min-height: 266px; */
+    min-height: 266px;
     z-index: 99;
 }
 
@@ -458,13 +459,13 @@ button svg {
     height: 620px;
     height: 635px;
     height: 466px;
+
     box-sizing: border-box;
     margin-top: 40px;
     height: 90vh;
     border: none;
     margin-bottom: -260px;
-    /* background: #fafafa; */
-    border-bottom: 10px solid white;
+
 }
 
 .introduction .content {}
@@ -473,10 +474,11 @@ button svg {
     .introduction {
         box-sizing: border-box;
         height: 525px;
-        height: 111vh;
+        height: 100vh;
         margin-top: 0px;
         margin-bottom: 0px;
-        /* margin-bottom: -30px; */
+        margin-bottom: -30px;
+
     }
 
     .introduction .content p {
@@ -557,7 +559,7 @@ button svg {
 
 .oneclickminer h3,
 .houses h3 {
-    color: #262626;
+    color: white;
 }
 
 
@@ -617,7 +619,7 @@ button svg {
     .oneclickminer,
     .asics {
         display: flex;
-        padding: 112px 25px 112px;
+        padding: 75px 25px 112px;
         justify-content: space-between;
         box-shadow: none;
     }
@@ -701,15 +703,13 @@ button svg {
 
 .footer {
     position: relative;
-    padding-top: 100px;
+    padding-top: 170px;
     text-align: left;
     color: #111;
-    /* background: #fafafa url(/img/footerSvg.svg) top no-repeat; */
+    background: #fff url(/img/footerSvg.svg) top no-repeat;
     z-index: 10;
     /* background: #000; */
     z-index: 9999;
-    background: #fafafa;
-    padding-bottom: 60px;
 }
 
 
@@ -905,7 +905,7 @@ blockquote {
     padding-top: 56%;
     position: relative;
     margin-bottom: 50px;
-    /*    box-shadow: 0px 11px 40px rgba(0, 0, 0, 0.07);*/
+    box-shadow: 0px 11px 40px rgba(0, 0, 0, 0.07);
 }
 
 .whiteBox .content {
@@ -1145,27 +1145,18 @@ blockquote {
 
 .center {
     text-align: center;
-    /* font-size: 21px; */
+    /*    font-size: 21px;*/
     max-width: 963px;
-    max-width: 482px;
+    max-width: 504px;
     margin: 0 auto;
     line-height: 1.8;
-    /* padding: 0px 0px 30px; */
+    padding: 98px 0px 103px;
 }
-
-
 
 
 @media only screen and (min-width: 600px) {
     .center {
         text-align: center;
-        text-align: center;
-        /* font-size: 21px; */
-        max-width: 963px;
-        max-width: 482px;
-        margin: 0 auto;
-        line-height: 1.8;
-        /* padding: 98px 0px 103px; */
     }
 }
 
@@ -1208,7 +1199,7 @@ blockquote {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     list-style: none;
-    /*    box-shadow: 0px 11px 40px rgba(0, 0, 0, 0.07);*/
+    box-shadow: 0px 11px 40px rgba(0, 0, 0, 0.07);
 }
 
 
@@ -1276,11 +1267,6 @@ only screen and (max-device-width: 40em) .card {
 }*/
 
 
-.statement {
-    /*    border-bottom: none;*/
-    /* padding-bottom: 0px; */
-}
-
 section.statement .col1 {
     font-size: 18px;
 
@@ -1294,8 +1280,8 @@ section.statement .col1 {
 
 .mainoverview {
     position: relative;
-    padding: 125px 35px 130px;
-    /* background: url(../img/overview-bg.svg) top no-repeat; */
+    padding: 405px 0 130px;
+    background: url(../img/overview-bg.svg) top no-repeat;
     background-size: cover;
     text-align: center;
 }
